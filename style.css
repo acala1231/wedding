@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Nanum Myeongjo", serif;
+    src:
+        url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nanum+Myeongjo&family=Noto+Serif+KR:wght@200..900&display=swap');
+    font-weight: 200-900;
+    font-style: normal;
+}
+
+
+
+html,
+body {
+    font-family: 'Nanum Myeongjo';
+    background: #fff;
+    font-weight: 200;
+    font-size: 16px;
+
+}
+
+section {
+
+    background: white;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.title {
+    line-height: 1.5;
+    text-align: left;
+    padding: 100px 0 0 0;
+    font-weight: 200;
+}
+
+.description {
+    text-align: right;
+    line-height: 1.5;
+    color: #666;
+    font-size: 15px;
+    padding: 40px 0 0 0;
+}
+
+.contents {
+    color: #111;
+}
+
+
+h4 {
+    color: #d88929;
+    padding: 32px 0 0 0;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.row {
+    display: flex;
+    padding: 13px 0 13px 0;
+    border-bottom: 1px solid #eaeaea;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.trigger-row {
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    transition: background-color 0.3s;
+    height: 54px;
+    align-items: center;
+}
+
+
+
+.accordion-button {
+    color: #2865F3;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+
+.accordion-button:hover {
+
+    color: #0D14F0;
+    background-color: #FEFAA7;
+
+}
+
+
+.accordion-content {
+    display: none;
+
+}
+
+
+.onerow {
+    padding: 15px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tworow {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 15px 0;
+    line-height: 1.5;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.threerow {
+    padding: 13px 0 13px 0;
+    line-height: 1.5;
+}
+
+
+.first {
+    color: #666;
+}
+
+.after {
+    color: #444;
+    text-align: right;
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+.threeafter {
+    padding: 10px 0 0 0;
+    color: #444;
+    text-align: right;
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.regards {
+    padding: 32px 0 60px 0;
+
+}
+
+.light {
+    font-weight: 200;
+}
