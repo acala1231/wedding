@@ -103,6 +103,7 @@ h4 {
 .onerow {
     padding: 15px 0 15px 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     line-height: 1.5;
     flex-wrap: wrap;
